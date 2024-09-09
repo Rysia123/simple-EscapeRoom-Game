@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<!--suppress ALL -->
+
+<AnchorPane prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Room1">
+   <children>
+      <ImageView fx:id="Walls" fitHeight="606.0" fitWidth="708.0" layoutY="-1.0" onMouseClicked="#points">
+         <image>
+            <Image url="@pusty%20pokój.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="RolledCarpet" fitHeight="369.0" fitWidth="417.0" layoutX="165.0" layoutY="236.0" visible="false">
+         <image>
+            <Image url="@zawinięty%20dywan.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="Hole" arcHeight="5.0" arcWidth="5.0" height="44.0" layoutX="248.0" layoutY="541.0" stroke="BLACK" strokeType="INSIDE" width="168.0" />
+      <ImageView fx:id="LadderInHole" fitHeight="397.0" fitWidth="614.0" layoutX="20.0" layoutY="200.0" visible="false">
+         <image>
+            <Image url="@dzióra%20z%20drabiną%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Carpet" fitHeight="253.0" fitWidth="259.0" layoutX="202.0" layoutY="353.0" onMouseClicked="#moveCarpet">
+         <image>
+            <Image url="@dywanphotoAid-removed-background%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Wordobe" fitHeight="766.0" fitWidth="396.0" layoutX="-194.0" layoutY="-161.0">
+         <image>
+            <Image url="@szafa.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="openChest" fitHeight="446.0" fitWidth="614.0" layoutX="40.0" layoutY="120.0">
+         <image>
+            <Image url="@otwarta%20skrzynka.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Chest" disable="true" fitHeight="200.0" fitWidth="200.0" layoutX="161.0" layoutY="279.0">
+         <image>
+            <Image url="@skrzynia.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Lom" fitHeight="212.0" fitWidth="225.0" layoutX="261.0" layoutY="343.0" onMouseDragged="#moveLom" visible="false">
+         <image>
+            <Image url="@łom%20(1).png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="Code" layoutX="198.0" layoutY="430.0" onAction="#code" visible="false" />
+      <ImageView fx:id="Table" fitHeight="200.0" fitWidth="200.0" layoutX="392.0" layoutY="42.0">
+         <image>
+            <Image url="@tablica.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="87.0" layoutX="226.0" layoutY="343.0" onMouseClicked="#rec" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="78.0" />
+      <ImageView fx:id="Ladder" fitHeight="606.0" fitWidth="292.0" layoutX="-203.0" layoutY="-11.0" onMouseDragged="#moveLadder" visible="false">
+         <image>
+            <Image url="@Project%20(20231102063334).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

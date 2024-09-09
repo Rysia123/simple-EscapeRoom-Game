@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Ending">
+   <children>
+      <Text fill="#008d36" layoutX="148.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You made it!" textAlignment="CENTER">
+         <font>
+            <Font size="51.0" />
+         </font>
+      </Text>
+      <Text layoutX="148.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Points" wrappingWidth="116.13671875">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Text>
+      <Text layoutX="148.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Text>
+      <Text fx:id="points" layoutX="323.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Text>
+      <Text fx:id="seconds" layoutX="323.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0s">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
